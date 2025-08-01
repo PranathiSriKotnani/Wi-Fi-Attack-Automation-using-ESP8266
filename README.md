@@ -1,6 +1,6 @@
 # Wi-Fi-Attack-Automation-using-ESP8266
 
-📖 Project Description
+# 📖 Project Description
 
 This project explores the vulnerabilities in wireless networks by automating common Wi-Fi attacks using the ESP8266 microcontroller. These attacks include:
 
@@ -12,27 +12,30 @@ This project explores the vulnerabilities in wireless networks by automating com
 
 Using libraries like ESP8266 Deauther, these attacks are implemented with a web interface or via direct packet crafting. The project emphasizes the ease of executing wireless attacks and the importance of Wi-Fi security protocols like WPA2/3, MAC filtering, and intrusion detection systems.
 
-🛠️ Requirements
-- ESP8266 NodeMCU (e.g., ESP-12E)
+## 🛠️ Requirements
 
-- Arduino IDE
+- Hardware: ESP8266 NodeMCU
 
-- ESP8266 board support package
+- Software: Arduino IDE
 
-- Wi-Fi Deauther firmware (e.g., Spacehuhn’s ESP8266 Deauther)
+- URL: `http://arduino.esp8266.com/stable/package_esp8266com_index.json`
 
-- Micro-USB cable
+- ESP8266 Libraries:
 
-⚙️ Setup Instructions
-1. Install the Arduino IDE.
+    - `ESP8266WiFi.h`
 
-2. Add the ESP8266 board manager URL in preferences:
-http://arduino.esp8266.com/stable/package_esp8266com_index.json
+    - `ESP8266WebServer.h`
 
-3. Install the ESP8266 Deauther firmware or flash a custom script to send crafted packets.
+    - `DNSServer.h`
 
-4. Upload to ESP8266, connect to its Wi-Fi, and access the web interface (if using Deauther UI).
+## ⚙️ Arduino Libraries Installation:
+
+1. Open Arduino IDE → Preferences → Add the ESP8266 board URL to "Additional Board Manager URLs"
+
+2. Go to Tools → Board → Boards Manager → Search and install "ESP8266 by ESP8266 Community"
+
+3. Install libraries via Sketch → Include Library → Manage Libraries
 
 ⚠️ Disclaimer
-This project is intended only for ethical testing and educational use on networks you own or have permission to test.
 
+Strictly for educational and ethical testing on networks you own or are authorized to audit.
