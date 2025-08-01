@@ -38,4 +38,4 @@ Using libraries like ESP8266 Deauther, these attacks are implemented with a web 
 
 ⚠️ Disclaimer
 
-Strictly for educational and ethical testing on networks you own or are authorized to audit.
+ __Strictly for educational and ethical testing on networks you own or are authorized to audit.__
